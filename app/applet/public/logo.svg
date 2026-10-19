@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&amp;display=swap');
+      .brand-title {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 76px;
+        font-weight: 500;
+        letter-spacing: 0.28em;
+        fill: #FFFFFF;
+        text-anchor: middle;
+      }
+    </style>
+    <!-- Filter for subtle crispness -->
+    <clipPath id="circleClip">
+      <circle cx="960" cy="485" r="170" />
+    </clipPath>
+  </defs>
+
+  <!-- Background in deep forest green #1B3A2E -->
+  <rect width="1920" height="1080" fill="#1B3A2E" />
+
+  <!-- Soft background shapes matching uploaded logo -->
+  <circle cx="1700" cy="180" r="480" fill="#20493A" />
+  <circle cx="160" cy="940" r="460" fill="#20493A" />
+
+  <!-- LOGO EMBLEM GROUP -->
+  <g id="emblem" transform="translate(0, -10)">
+    <!-- Base Circular Ring and Core Disc -->
+    <circle cx="960" cy="485" r="162" fill="none" stroke="#FFFFFF" stroke-width="16" />
+    <circle cx="960" cy="485" r="150" fill="#FFFFFF" opacity="0.98" />
+
+    <!-- Tilted Orbital Capsule / Rocket Body cutting across -->
+    <!-- Transformed to -20 degree angle through center (960, 485) -->
+    <g transform="rotate(-21 960 485)">
+      <!-- Outer white fuselage / orbital belt -->
+      <path d="M 560 485 
+               C 560 425, 620 405, 750 405 
+               L 1250 405 
+               C 1330 405, 1375 440, 1420 485 
+               C 1375 530, 1330 565, 1250 565 
+               L 750 565 
+               C 620 565, 560 545, 560 485 Z" 
+            fill="#FFFFFF" />
+
+      <!-- Inner cutout / negative track shaping the letter 'E' and interior loop -->
+      <path d="M 660 485 
+               C 660 450, 710 440, 790 440 
+               L 1220 440 
+               C 1270 440, 1300 460, 1340 485 
+               C 1300 510, 1270 530, 1220 530 
+               L 790 530 
+               C 710 530, 660 520, 660 485 Z" 
+            fill="#1B3A2E" />
+
+      <!-- Center bar and stylized contours forming the deep-tech 'E' structure -->
+      <!-- Center spine and horizontal bar -->
+      <rect x="750" y="468" width="280" height="34" rx="10" fill="#FFFFFF" />
+      <path d="M 930 440 L 980 440 L 890 530 L 840 530 Z" fill="#1B3A2E" />
+
+      <!-- Rocket nose cone detailing at right tip -->
+      <path d="M 1320 445 L 1410 485 L 1320 525 Z" fill="#FFFFFF" />
+      <line x1="1310" y1="440" x2="1310" y2="530" stroke="#1B3A2E" stroke-width="8" />
+
+      <!-- Orbital motion trace line with 4-point sparkle at bottom right -->
+      <path d="M 1160 560 Q 1190 600 1220 620" fill="none" stroke="#FFFFFF" stroke-width="6" />
+    </g>
+
+    <!-- 4-point Sparkle Star at bottom right of the orbit -->
+    <!-- Positioned around (1110, 545) with motion trail -->
+    <g transform="translate(1100, 540)">
+      <path d="M 0 -24 Q 0 0 24 0 Q 0 0 0 24 Q 0 0 -24 0 Q 0 0 0 -24 Z" fill="#FFFFFF" />
+      <path d="M -8 -8 L -35 -20" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- Typography: ECO TRACE -->
+  <text x="960" y="805" class="brand-title">ECO TRACE</text>
+</svg>

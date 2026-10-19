@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" width="1600" height="800">
+  <rect width="1600" height="800" fill="#14342A" />
+  <g fill="none" stroke="#FAF8F2" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <!-- E -->
+    <path d="M 395 340 L 340 340 A 25 25 0 0 0 315 365 L 315 435 A 25 25 0 0 0 340 460 L 395 460 M 315 400 L 385 400" />
+    
+    <!-- C -->
+    <path d="M 510 340 L 455 340 A 25 25 0 0 0 430 365 L 430 435 A 25 25 0 0 0 455 460 L 510 460" />
+    
+    <!-- O & T (Interlocking Trace Ribbon) -->
+    <!-- Outer boundary: from top of O around left spine, bottom trace line through to vertical T stem -->
+    <path d="M 570 340 A 25 25 0 0 0 545 365 L 545 435 A 25 25 0 0 0 570 460 L 740 460 A 25 25 0 0 0 765 435 L 765 340" />
+    <!-- T top crossbar -->
+    <path d="M 685 340 L 835 340" />
+    <!-- O inner/right contour: curves down-left into the baseline -->
+    <path d="M 570 340 L 610 340 A 25 25 0 0 1 635 365 C 635 395 615 435 585 455 A 15 15 0 0 1 570 460" />
+    
+    <!-- R -->
+    <path d="M 870 460 L 870 340 L 925 340 A 25 25 0 0 1 950 365 L 950 375 A 25 25 0 0 1 925 400 L 870 400 M 905 400 L 950 460" />
+    
+    <!-- A -->
+    <path d="M 980 460 L 1017 346 A 8 8 0 0 1 1029 346 L 1065 460 M 996 415 L 1050 415" />
+    
+    <!-- C -->
+    <path d="M 1175 340 L 1120 340 A 25 25 0 0 0 1095 365 L 1095 435 A 25 25 0 0 0 1120 460 L 1175 460" />
+    
+    <!-- E -->
+    <path d="M 1285 340 L 1230 340 A 25 25 0 0 0 1205 365 L 1205 435 A 25 25 0 0 0 1230 460 L 1285 460 M 1205 400 L 1275 400" />
+  </g>
+</svg>

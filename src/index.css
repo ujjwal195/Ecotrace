@@ -1,0 +1,193 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #FAF8F2;
+  --color-surface: #F1EFE6;
+  --color-mist: #E8F0E6;
+  --color-card: #FFFFFF;
+  --color-ink: #14342A;
+  --color-muted: #5B6B63;
+  --color-hairline: #DDE3D8;
+  --color-primary: #2E7D5B;
+  --color-primary-hover: #256A4C;
+  --color-primary-soft: #CFE3D5;
+  --color-sage: #8FB89D;
+  --color-warm: #D9A04E;
+  --color-deep: #14342A;
+  --color-error: #B3402F;
+
+  /* Custom Navigation Breakpoint Token */
+  --breakpoint-nav: 900px;
+  
+  /* Shared corner gutter token */
+  --spacing-gutter: clamp(20px, 3.5vw, 56px);
+
+  --font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 64px;
+  }
+
+  @media (min-width: 900px) {
+    html {
+      scroll-padding-top: 72px;
+    }
+  }
+
+  @media (max-height: 520px) {
+    html {
+      scroll-padding-top: 56px;
+    }
+  }
+
+  :root {
+    --gutter: clamp(20px, 3.5vw, 56px);
+    --bg: #FAF8F2;
+    --surface: #F1EFE6;
+    --mist: #E8F0E6;
+    --card: #FFFFFF;
+    --ink: #14342A;
+    --muted: #5B6B63;
+    --hairline: #DDE3D8;
+    --primary: #2E7D5B;
+    --primary-hover: #256A4C;
+    --primary-soft: #CFE3D5;
+    --sage: #8FB89D;
+    --warm: #D9A04E;
+    --deep: #14342A;
+    --error: #B3402F;
+  }
+
+  body {
+    background-color: #FAF8F2;
+    color: #14342A;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    max-width: 68ch;
+  }
+}
+
+/* Reduced motion preference support (WCAG compliant) */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Subtle, minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDE3D8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8FB89D;
+}
+
+/* Hide scrollbar for sideways scrolling navigation without losing scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Compact header height on short viewports (landscape phones) */
+@media (max-height: 520px) {
+  .header-compact-height {
+    height: 56px !important;
+  }
+}
+
+/* Footer logo mark: CSS mask rendering with graceful fallback */
+.footer-logo-mask {
+  display: block;
+}
+.footer-logo-fallback {
+  display: none;
+}
+@supports not ((mask-image: url("")) or (-webkit-mask-image: url(""))) {
+  .footer-logo-mask {
+    display: none !important;
+  }
+  .footer-logo-fallback {
+    display: block !important;
+  }
+}
+
+/* Leo Mascot & Widget Animations */
+@keyframes leoFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes leoBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  30% {
+    transform: translateY(-8px) scale(1.04);
+  }
+  60% {
+    transform: translateY(2px) scale(0.98);
+  }
+}
+
+.leo-stage-float {
+  animation: leoFloat 3s ease-in-out infinite;
+}
+
+.leo-bounce {
+  animation: leoBounce 0.45s ease-out;
+}
+
+.leo-launcher-interactive {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+
+.leo-launcher-interactive:hover {
+  transform: translateY(-3px) rotate(3deg);
+}
+
+.leo-launcher-interactive:active {
+  transform: scale(0.96);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .leo-stage-float,
+  .leo-bounce {
+    animation: none !important;
+  }
+  .leo-launcher-interactive:hover,
+  .leo-launcher-interactive:active {
+    transform: none !important;
+  }
+}
+

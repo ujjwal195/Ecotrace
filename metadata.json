@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix EcoTrace – Compostable Bio-Based Polymers from Sugarcane Waste",
+  "description": "EcoTrace is developing a compostable, bio-based polymer from sugarcane waste in India. Join our early-access list.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

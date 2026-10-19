@@ -1,0 +1,5 @@
+# robots.txt for EcoTrace Packaging Private Limited
+User-agent: *
+Allow: /
+
+Sitemap: https://ecotrace.in/sitemap.xml

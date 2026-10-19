@@ -1,0 +1,59 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#14342A" opacity="0.8">
+    <text x="350" y="160" font-family="sans-serif" font-size="34" font-weight="bold">Z</text>
+    <text x="382" y="130" font-family="sans-serif" font-size="26" font-weight="bold">z</text>
+    <text x="408" y="105" font-family="sans-serif" font-size="20" font-weight="bold">z</text>
+  </g>
+
+  <ellipse cx="256" cy="385" rx="160" ry="85" fill="#F2BA74" stroke="#D68A36" stroke-width="3" />
+  <path d="M 120 410 Q 80 380 90 340 Q 110 360 130 390" fill="#E8A858" stroke="#D68A36" stroke-width="2" />
+  
+  <ellipse cx="225" cy="420" rx="32" ry="18" fill="#FCE9CC" stroke="#D68A36" stroke-width="2" />
+  <ellipse cx="287" cy="420" rx="32" ry="18" fill="#FCE9CC" stroke="#D68A36" stroke-width="2" />
+
+  <g transform="translate(0, 50)">
+    
+  <!-- Bandana triangle around neck -->
+  <path d="M 180 340 Q 256 360 332 340 L 256 425 Z" fill="#1B4931" stroke="#14342A" stroke-width="2" />
+  
+  <ellipse cx="256" cy="388" rx="8" ry="10" fill="#FFFFFF" />
+  <circle cx="242" cy="374" r="5" fill="#FFFFFF" />
+  <circle cx="251" cy="368" r="5" fill="#FFFFFF" />
+  <circle cx="261" cy="368" r="5" fill="#FFFFFF" />
+  <circle cx="270" cy="374" r="5" fill="#FFFFFF" />
+
+
+    
+    <g >
+      <!-- Ears -->
+      <path d="M 175 180 C 130 190 110 270 145 320 C 160 340 190 320 185 270 Z" fill="#D68A36" stroke="#B87122" stroke-width="3" />
+      <path d="M 337 180 C 382 190 402 270 367 320 C 352 340 322 320 327 270 Z" fill="#D68A36" stroke="#B87122" stroke-width="3" />
+      
+      <!-- Head Base -->
+      <ellipse cx="256" cy="226" rx="100" ry="94" fill="#F2BA74" stroke="#D68A36" stroke-width="3" />
+      
+      <!-- Cheeks -->
+      <path d="M 158 240 Q 146 250 156 262 Q 144 272 162 280" stroke="#D68A36" stroke-width="2.5" fill="none" />
+      <path d="M 354 240 Q 366 250 356 262 Q 368 272 350 280" stroke="#D68A36" stroke-width="2.5" fill="none" />
+      
+      <!-- Forehead Tuft -->
+      <path d="M 244 135 Q 256 120 268 135 Q 256 142 244 135 Z" fill="#F7D8AE" />
+
+      <!-- Muzzle -->
+      <ellipse cx="256" cy="268" rx="46" ry="34" fill="#FCE9CC" />
+
+      <!-- Nose -->
+      <path d="M 242 254 C 242 248 270 248 270 254 C 270 266 242 266 242 254 Z" fill="#1A1412" />
+      <ellipse cx="251" cy="252" rx="3.5" ry="1.5" fill="#FFFFFF" opacity="0.6" />
+
+      
+      <path d="M 200 230 Q 220 245 240 230" stroke="#2A180E" stroke-width="6" stroke-linecap="round" fill="none" />
+      <path d="M 272 230 Q 292 245 312 230" stroke="#2A180E" stroke-width="6" stroke-linecap="round" fill="none" />
+    
+      
+      <path d="M 238 288 Q 256 298 274 288" stroke="#2A180E" stroke-width="4" stroke-linecap="round" fill="none" />
+    
+    </g>
+  
+  </g>
+</svg>

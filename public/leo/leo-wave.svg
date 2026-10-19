@@ -1,0 +1,71 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 142 410 Q 82 390 72 330 Q 92 340 132 380" fill="#E8A858" stroke="#D68A36" stroke-width="2" />
+  <ellipse cx="150" cy="425" rx="42" ry="26" fill="#D68A36" />
+  <ellipse cx="362" cy="425" rx="42" ry="26" fill="#D68A36" />
+  <path d="M 188 330 C 180 380 180 430 200 450 L 312 450 C 332 430 332 380 324 330 Z" fill="#F2BA74" stroke="#D68A36" stroke-width="3" />
+  
+  <rect x="200" y="370" width="38" height="96" rx="19" fill="#F2BA74" stroke="#D68A36" stroke-width="2.5" />
+  <ellipse cx="219" cy="460" rx="22" ry="14" fill="#FCE9CC" stroke="#D68A36" stroke-width="2" />
+
+  <!-- Right Arm raised high waving! -->
+  <path d="M 310 330 C 350 310 400 240 405 210 C 410 190 385 185 365 205 C 340 230 310 300 295 335 Z" fill="#F2BA74" stroke="#D68A36" stroke-width="3" />
+  <ellipse cx="390" cy="205" rx="20" ry="22" fill="#FCE9CC" stroke="#D68A36" stroke-width="2.5" />
+  <ellipse cx="390" cy="210" rx="7" ry="8" fill="#2A180E" />
+  <circle cx="379" cy="198" r="4" fill="#2A180E" />
+  <circle cx="387" cy="193" r="4" fill="#2A180E" />
+  <circle cx="395" cy="193" r="4" fill="#2A180E" />
+  <circle cx="403" cy="198" r="4" fill="#2A180E" />
+
+  <path d="M 425 185 Q 435 205 425 225" stroke="#2E7D5B" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M 438 190 Q 448 205 438 220" stroke="#8FB89D" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+  
+  <!-- Bandana triangle around neck -->
+  <path d="M 180 340 Q 256 360 332 340 L 256 425 Z" fill="#1B4931" stroke="#14342A" stroke-width="2" />
+  
+  <ellipse cx="256" cy="388" rx="8" ry="10" fill="#FFFFFF" />
+  <circle cx="242" cy="374" r="5" fill="#FFFFFF" />
+  <circle cx="251" cy="368" r="5" fill="#FFFFFF" />
+  <circle cx="261" cy="368" r="5" fill="#FFFFFF" />
+  <circle cx="270" cy="374" r="5" fill="#FFFFFF" />
+
+
+  
+    <g >
+      <!-- Ears -->
+      <path d="M 175 180 C 130 190 110 270 145 320 C 160 340 190 320 185 270 Z" fill="#D68A36" stroke="#B87122" stroke-width="3" />
+      <path d="M 337 180 C 382 190 402 270 367 320 C 352 340 322 320 327 270 Z" fill="#D68A36" stroke="#B87122" stroke-width="3" />
+      
+      <!-- Head Base -->
+      <ellipse cx="256" cy="226" rx="100" ry="94" fill="#F2BA74" stroke="#D68A36" stroke-width="3" />
+      
+      <!-- Cheeks -->
+      <path d="M 158 240 Q 146 250 156 262 Q 144 272 162 280" stroke="#D68A36" stroke-width="2.5" fill="none" />
+      <path d="M 354 240 Q 366 250 356 262 Q 368 272 350 280" stroke="#D68A36" stroke-width="2.5" fill="none" />
+      
+      <!-- Forehead Tuft -->
+      <path d="M 244 135 Q 256 120 268 135 Q 256 142 244 135 Z" fill="#F7D8AE" />
+
+      <!-- Muzzle -->
+      <ellipse cx="256" cy="268" rx="46" ry="34" fill="#FCE9CC" />
+
+      <!-- Nose -->
+      <path d="M 242 254 C 242 248 270 248 270 254 C 270 266 242 266 242 254 Z" fill="#1A1412" />
+      <ellipse cx="251" cy="252" rx="3.5" ry="1.5" fill="#FFFFFF" opacity="0.6" />
+
+      
+      <ellipse cx="218" cy="224" rx="20" ry="24" fill="#2A180E" />
+      <circle cx="212" cy="216" r="8" fill="#FFFFFF" />
+      <circle cx="225" cy="230" r="3" fill="#FFFFFF" />
+      <ellipse cx="294" cy="224" rx="20" ry="24" fill="#2A180E" />
+      <circle cx="288" cy="216" r="8" fill="#FFFFFF" />
+      <circle cx="301" cy="230" r="3" fill="#FFFFFF" />
+    
+      
+      <path d="M 226 276 Q 256 325 286 276" fill="#8B2635" stroke="#2A180E" stroke-width="4" />
+      <path d="M 238 288 Q 256 322 274 288" fill="#E86A7A" />
+      <path d="M 256 266 L 256 284" stroke="#2A180E" stroke-width="3" stroke-linecap="round" />
+    
+    </g>
+  
+</svg>
